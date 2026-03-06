@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Learn More" },
           ]}
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=1"
           imageAlt="Female skateboarder performing at skateboard park"
           mediaAnimation="slide-up"
           frameStyle="card"
@@ -77,7 +77,7 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg"},
+              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=1"},
             {
               id: 2,
               title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-legs-longboard-skater-girl-riding-her-skateboard-street-female-teenager-cru_1258-138262.jpg"},
@@ -98,13 +98,13 @@ export default function LandingPage() {
           tag="Competitive Pricing"
           plans={[
             {
-              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg",              features: [
+              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=2",              features: [
                 "1.5-2 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & Atlas views included"],
               button: {
                 text: "Book Now",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
             },
             {
-              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg",              features: [
+              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=2",              features: [
                 "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"],
               button: {
                 text: "Book Package",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
