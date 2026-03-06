@@ -36,17 +36,19 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" },
           ]}
           button={{
-            text: "Book Now",            href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"}}
+            text: "Book Now",            href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+          }}
         />
       </div>
 
       <div id="hero" data-section="hero">
         <HeroLogoBillboard
           logoText="Houda's Skateboarding"
-          description="Learn skateboarding or surf skate with confidence. Build strong balance, control, and smooth turns through clear, focused coaching in beautiful Tameslouht, Marrakech."
+          description="Learn skateboarding or surf skate with confidence. Build strong balance, control, and smooth turns through clear, focused coaching in beautiful Tamelslohte, Marrakech."
           buttons={[
             {
-              text: "Book Your Experience",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+              text: "Book Your Experience",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+            },
             { text: "Learn More" },
           ]}
           background={{ variant: "sparkles-gradient" }}
@@ -63,7 +65,8 @@ export default function LandingPage() {
           title="Houda Ait Lahcen - Skateboarding Instructor & Girls Supporter"
           buttons={[
             {
-              text: "Reserve Your Spot",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+              text: "Reserve Your Spot",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+            },
           ]}
           useInvertedBackground={true}
         />
@@ -77,13 +80,16 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=1"},
+              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=1"
+            },
             {
               id: 2,
-              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-legs-longboard-skater-girl-riding-her-skateboard-street-female-teenager-cru_1258-138262.jpg"},
+              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-legs-longboard-skater-girl-riding-her-skateboard-street-female-teenager-cru_1258-138262.jpg"
+            },
             {
               id: 3,
-              title: "Personal Coaching",              description: "One-on-one instruction with Morocco's best skater girl, including hands-on skating practice and personalized learning.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-skateboarders-feet-skating_171337-9160.jpg"},
+              title: "Personal Coaching",              description: "One-on-one instruction with Morocco's best skater girl, including hands-on skating practice and personalized learning.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-skateboarders-feet-skating_171337-9160.jpg"
+            },
           ]}
           animationType="blur-reveal"
           textboxLayout="default"
@@ -99,15 +105,19 @@ export default function LandingPage() {
           plans={[
             {
               id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=2",              features: [
-                "1.5-2 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & Atlas views included"],
+                "1.5-2 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & Atlas views included"
+              ],
               button: {
-                text: "Book Now",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+                text: "Book Now",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+              },
             },
             {
               id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=2",              features: [
-                "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"],
+                "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"
+              ],
               button: {
-                text: "Book Package",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+                text: "Book Package",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+              },
             },
           ]}
           animationType="slide-up"
@@ -124,7 +134,8 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           names={[
-            "Marrakech Skateboard Community",            "CJF Morocco Programs",            "Atlas Mountain Sports",            "Tameslouht Fiere et Fort",            "International Skate Alliance",            "Women Skater Network",            "Moroccan Youth Sports",            "Inclusive Skateboarding Initiative"]}
+            "Marrakech Skateboard Community",            "CJF Morocco Programs",            "Atlas Mountain Sports",            "Tameslouht Fiere et Fort",            "International Skate Alliance",            "Women Skater Network",            "Moroccan Youth Sports",            "Inclusive Skateboarding Initiative"
+          ]}
           speed={40}
           showCard={true}
         />
@@ -140,17 +151,23 @@ export default function LandingPage() {
           faqsAnimation="blur-reveal"
           faqs={[
             {
-              id: "1",              title: "What age can participate?",              content: "Guests ages 15 and up can attend. We welcome beginners and intermediates alike."},
+              id: "1",              title: "What age can participate?",              content: "Guests ages 15 and up can attend. We welcome beginners and intermediates alike."
+            },
             {
-              id: "2",              title: "What should I bring?",              content: "Bring water to keep hydrated. All skateboarding equipment and protective gear is provided."},
+              id: "2",              title: "What should I bring?",              content: "Bring water to keep hydrated. All skateboarding equipment and protective gear is provided."
+            },
             {
-              id: "3",              title: "How difficult is this activity?",              content: "The activity level is moderate and the skill level is beginner. We start with the fundamentals and progress at your pace."},
+              id: "3",              title: "How difficult is this activity?",              content: "The activity level is moderate and the skill level is beginner. We start with the fundamentals and progress at your pace."
+            },
             {
-              id: "4",              title: "What's your cancellation policy?",              content: "Cancel at least 1 day before the start time for a full refund. Free cancellation is available."},
+              id: "4",              title: "What's your cancellation policy?",              content: "Cancel at least 1 day before the start time for a full refund. Free cancellation is available."
+            },
             {
-              id: "5",              title: "Do you accommodate people with mobility issues?",              content: "We have a step-free bathroom available and a quiet retreat space. Contact us to discuss specific accessibility needs."},
+              id: "5",              title: "Do you accommodate people with mobility issues?",              content: "We have a step-free bathroom available and a quiet retreat space. Contact us to discuss specific accessibility needs."
+            },
             {
-              id: "6",              title: "Where exactly do we meet?",              content: "Sessions are held in Tameslouht, Marrakech. You'll enjoy spectacular Atlas Mountain views and access to Fiere et Fort skateboard park."},
+              id: "6",              title: "Where exactly do we meet?",              content: "Sessions are held in Tamelslohte, Marrakech. You'll enjoy spectacular Atlas Mountain views and access to Fiere et Fort skateboard park."
+            },
           ]}
         />
       </div>
@@ -159,12 +176,12 @@ export default function LandingPage() {
         <ContactSplit
           tag="Get In Touch"
           title="Ready to Learn?"
-          description="Join our skateboarding community in Marrakech. Book your experience today and become part of a movement supporting youth skateboarding across Morocco."
+          description="Let's learn together and try a new experience where you learn not just skating but confidence. Join our skateboarding community in Marrakech. Book your experience today and become part of a movement supporting youth skateboarding across Morocco."
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/ksar-ait-ben-haddou-surrounded-by-greenery-sunlight-blue-sky-morocco_181624-14248.jpg"
-          imageAlt="Atlas Mountains and Tameslouht landscape in Marrakech"
+          imageAlt="Atlas Mountains and Tamelslohte landscape in Marrakech"
           mediaAnimation="opacity"
           mediaPosition="right"
           inputPlaceholder="your@email.com"
@@ -180,7 +197,8 @@ export default function LandingPage() {
             {
               title: "Experience",              items: [
                 {
-                  label: "Book On Airbnb",                  href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+                  label: "Book On Airbnb",                  href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+                },
                 { label: "What You'll Learn", href: "#features" },
                 { label: "Pricing", href: "#pricing" },
                 { label: "FAQ", href: "#faq" },
@@ -189,7 +207,7 @@ export default function LandingPage() {
             {
               title: "About",              items: [
                 { label: "Meet Houda", href: "#about" },
-                { label: "Location: Tameslouht", href: "#contact" },
+                { label: "Location: Tamelslohte", href: "https://share.google/mFIsJmMkYH3jZ7wkkU" },
                 { label: "CJF Morocco Support", href: "#" },
                 { label: "Community Impact", href: "#" },
               ],
@@ -208,11 +226,12 @@ export default function LandingPage() {
                 { label: "Facebook", href: "https://facebook.com" },
                 { label: "TikTok", href: "https://tiktok.com" },
                 {
-                  label: "Message on Airbnb",                  href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"},
+                  label: "Message on Airbnb",                  href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
+                },
               ],
             },
           ]}
-          copyrightText="© 2025 Houda's Skateboarding Experience. 5% of proceeds support CJF Morocco community programs."
+          copyrightText="© 2025 Houda's Skateboarding Experience. Located in Tamelslohte, Marrakech. 5% of proceeds support CJF Morocco community programs."
         />
       </div>
     </ThemeProvider>
