@@ -15,13 +15,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",  description: "Book an authentic skateboarding experience in Tameslouht, Marrakech. Learn from an expert skater instructor with 5+ years experience. 5% supports CJF Morocco youth programs.",  keywords: "skateboarding lessons marrakech, learn skateboard morocco, skateboard coaching tameslouht, skateboard instructor marrakech, beginner skateboarding, CJF morocco",  metadataBase: new URL("https://houdasskateboarding.com"),
+  title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",  description: "Book an authentic skateboarding experience in Tamelslohte, Marrakech. Learn from an expert skater instructor with 5+ years experience. 5% supports CJF Morocco youth programs.",  keywords: "skateboarding lessons marrakech, learn skateboard morocco, skateboard coaching tamelslohte, skateboard instructor marrakech, beginner skateboarding, CJF morocco",  metadataBase: new URL("https://houdasskateboarding.com"),
   alternates: {
-    canonical: "https://houdasskateboarding.com"},
+    canonical: "https://houdasskateboarding.com"
+  },
   openGraph: {
-    title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",    description: "Expert skateboarding coaching in beautiful Tameslouht. Build confidence, balance, and skills. 5% to CJF Morocco.",    url: "https://houdasskateboarding.com",    siteName: "Houda's Skateboarding",    type: "website",    images: [
+    title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",    description: "Expert skateboarding coaching in beautiful Tamelslohte. Build confidence, balance, and skills. 5% to CJF Morocco.",    url: "https://houdasskateboarding.com",    siteName: "Houda's Skateboarding",    type: "website",    images: [
       {
-        url: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg",        alt: "Female skateboarder in Marrakech"},
+        url: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg",        alt: "Female skateboarder in Marrakech"
+      },
     ],
   },
   twitter: {
