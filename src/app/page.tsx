@@ -207,7 +207,7 @@ export default function LandingPage() {
             {
               title: "About",              items: [
                 { label: "Meet Houda", href: "#about" },
-                { label: "Location: Tamelslohte", href: "https://share.google/mFIsJmMkYH3jZ7wkkU" },
+                { label: "Location: Tameslouht, Marrakech, Morocco", href: "https://share.google/mFIsJmMkYH3jZ7wkk" },
                 { label: "CJF Morocco Support", href: "#" },
                 { label: "Community Impact", href: "#" },
               ],
@@ -231,7 +231,7 @@ export default function LandingPage() {
               ],
             },
           ]}
-          copyrightText="© 2025 Houda's Skateboarding Experience. Located in Tamelslohte, Marrakech. 5% of proceeds support CJF Morocco community programs."
+          copyrightText="Let's Learn Together and Try a New Experience Where You Learn Not Just Skating But Confidence — © 2025 Houda's Skateboarding Experience in Tameslouht, Marrakech, Morocco. 5% of proceeds support CJF Morocco community programs."
         />
       </div>
     </ThemeProvider>
