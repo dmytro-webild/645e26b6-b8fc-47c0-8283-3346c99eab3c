@@ -1,54 +1,24 @@
 import type { Metadata } from "next";
-import { Libre_Baskerville } from "next/font/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
-
-const libreBaskerville = Libre_Baskerville({
-  variable: "--font-libre-baskerville",  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 const inter = Inter({
   variable: "--font-inter",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",  description: "Book an authentic skateboarding experience in Tamelslohte, Marrakech. Learn from an expert skater instructor with 5+ years experience. 5% supports CJF Morocco youth programs.",  keywords: "skateboarding lessons marrakech, learn skateboard morocco, skateboard coaching tamelslohte, skateboard instructor marrakech, beginner skateboarding, CJF morocco",  metadataBase: new URL("https://houdasskateboarding.com"),
-  alternates: {
-    canonical: "https://houdasskateboarding.com"
-  },
-  openGraph: {
-    title: "Learn Skateboarding in Marrakech with Houda Ait Lahcen",    description: "Expert skateboarding coaching in beautiful Tamelslohte. Build confidence, balance, and skills. 5% to CJF Morocco.",    url: "https://houdasskateboarding.com",    siteName: "Houda's Skateboarding",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg",        alt: "Female skateboarder in Marrakech"
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Learn Skateboarding in Marrakech",    description: "Expert coaching from Morocco's best skater girl. Build confidence on the board.",    images: ["http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "Houda's Skateboarding Experience",  description: "Learn skateboarding in Marrakech with professional coaching from Morocco's best skater girl."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${libreBaskerville.variable} ${inter.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.variable}>
+        {children}
+      
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1416,7 +1386,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
