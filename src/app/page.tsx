@@ -188,7 +188,7 @@ export default function LandingPage() {
           mediaPosition="right"
           inputPlaceholder="your@email.com"
           buttonText="Join Our Community"
-          termsText="By booking, you support CJF Morocco programs serving local youth. 5% of proceeds go directly to community development."
+          termsText="By booking, you support CJF Morocco programs serving local youth. 8% of proceeds go directly to community development."
         />
       </div>
 
