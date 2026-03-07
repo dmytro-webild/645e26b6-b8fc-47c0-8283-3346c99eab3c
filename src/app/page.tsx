@@ -6,7 +6,6 @@ import HeroLogoBillboard from "@/components/sections/hero/HeroLogoBillboard";
 import TextAbout from "@/components/sections/about/TextAbout";
 import FeatureCardSeven from "@/components/sections/feature/FeatureCardSeven";
 import PricingCardNine from "@/components/sections/pricing/PricingCardNine";
-import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactSplit from "@/components/sections/contact/ContactSplit";
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
@@ -123,21 +122,6 @@ export default function LandingPage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
-        />
-      </div>
-
-      <div id="social-proof" data-section="social-proof">
-        <SocialProofOne
-          title="Trusted by Skateboarders Worldwide"
-          description="Join hundreds of learners from around the world who have built confidence on the skateboard."
-          tag="Community Impact"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          names={[
-            "Marrakech Skateboard Community",            "CJF Morocco Programs",            "Atlas Mountain Sports",            "Tameslouht Fiere et Fort",            "International Skate Alliance",            "Women Skater Network",            "Moroccan Youth Sports",            "Inclusive Skateboarding Initiative"
-          ]}
-          speed={40}
-          showCard={true}
         />
       </div>
 
