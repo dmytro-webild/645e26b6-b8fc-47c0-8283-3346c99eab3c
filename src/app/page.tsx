@@ -233,7 +233,7 @@ export default function LandingPage() {
               ],
             },
           ]}
-          copyrightText="Let's Learn Together and Try a New Experience Where You Learn Not Just Skating But Confidence — © 2025 Houda's Skateboarding Experience in Tameslouht, Marrakech, Morocco. 5% of proceeds support CJF Morocco community programs."
+          copyrightText="Let's Learn Together and Try a New Experience Where You Learn Not Just Skating But Confidence — © 2025 Houda's Skateboarding Experience in Tameslouht, Marrakech, Morocco. 8% of proceeds support CJF Morocco community programs."
         />
       </div>
     </ThemeProvider>
