@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Houda's Skateboarding"
+          brandName="Marrakech, Tameslouht , Morocco"
           navItems={[
             { name: "About", id: "about" },
             { name: "What You'll Learn", id: "features" },
@@ -43,8 +43,8 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroLogoBillboard
-          logoText="Houda's Skateboarding"
-          description="Learn skateboarding or surf skate with confidence. Build strong balance, control, and smooth turns through clear, focused coaching in beautiful Tamelslohte, Marrakech."
+          logoText=""
+          description="Learn skateboarding or surf skate with confidence. Build strong balance, control, and smooth turns through clear, focused coaching in Tameslouht or Marrakech."
           buttons={[
             {
               text: "Book Your Experience",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
@@ -52,7 +52,7 @@ export default function LandingPage() {
             { text: "Learn More" },
           ]}
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/premium-photo/acticity-summer-holiday-concept-close-up-female-hand-holding-skateboard_380164-54676.jpg?id=23560990"
           imageAlt="Female skateboarder performing at skateboard park"
           mediaAnimation="slide-up"
           frameStyle="card"
@@ -80,7 +80,7 @@ export default function LandingPage() {
               title: "Personal Attention",              description: "One-on-one instruction tailored to your skill level and learning pace"
             },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772847116738-v7uf3uyb.jpg"
           imageAlt="Houda skateboarding instructor"
           mediaAnimation="slide-up"
           imagePosition="right"
@@ -97,11 +97,11 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=1"
+              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/back-view-man-doing-warm-up-exercises_23-2148239506.jpg?id=5131671"
             },
             {
               id: 2,
-              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/cropped-shot-legs-longboard-skater-girl-riding-her-skateboard-street-female-teenager-cru_1258-138262.jpg"
+              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/guys-skate-pool_1321-1334.jpg?id=3202066"
             },
             {
               id: 3,
@@ -117,19 +117,19 @@ export default function LandingPage() {
       <div id="pricing" data-section="pricing">
         <PricingCardNine
           title="Skateboarding Experience"
-          description="All sessions include professional coaching, safety equipment, and community support. 5% of proceeds benefit CJF Morocco."
+          description="All sessions include professional coaching, safety equipment, and community support. 8% of proceeds benefit CJF Morocco."
           tag="Competitive Pricing"
           plans={[
             {
-              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=2",              features: [
-                "1.5-2 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & Atlas views included"
+              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844231026-e8kfd47f.jpg",              features: [
+                "1.3 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & relaxing area and discussion   "
               ],
               button: {
                 text: "Book Now",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
               },
             },
             {
-              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/skate-parkteens-skate-park_23-2149836894.jpg?_wi=2",              features: [
+              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844264109-m2vkl8gz.jpg",              features: [
                 "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"
               ],
               button: {
@@ -182,7 +182,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/ksar-ait-ben-haddou-surrounded-by-greenery-sunlight-blue-sky-morocco_181624-14248.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844319531-4eo0pzhb.jpg"
           imageAlt="Atlas Mountains and Tamelslohte landscape in Marrakech"
           mediaAnimation="opacity"
           mediaPosition="right"
@@ -194,7 +194,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBaseCard
-          logoText="Houda's Skateboarding"
+          logoText="Lets learn together a new experience "
           columns={[
             {
               title: "Experience",              items: [
