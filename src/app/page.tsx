@@ -62,7 +62,7 @@ export default function LandingPage() {
       <div id="about" data-section="about">
         <TextAbout
           tag="Meet Your Coach"
-          title="Morocco's Leading Female Skateboarding Instructor - Houda Ait Lahcen"
+          title="Houda Ait Lahcen - Skateboarding Instructor & Girls Supporter"
           buttons={[
             {
               text: "Reserve Your Spot",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
