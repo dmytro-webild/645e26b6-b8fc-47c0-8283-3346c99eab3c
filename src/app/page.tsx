@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Marrakech, Tameslouht , Morocco"
+          brandName="Book Your Skate & Surfskate Experience Today"
           navItems={[
             { name: "About", id: "about" },
             { name: "What You'll Learn", id: "features" },
@@ -52,7 +52,7 @@ export default function LandingPage() {
             { text: "Learn More" },
           ]}
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/premium-photo/acticity-summer-holiday-concept-close-up-female-hand-holding-skateboard_380164-54676.jpg?id=23560990"
+          imageSrc="http://img.b2bpic.net/premium-photo/closeup-skateboarder-pink-skateboard-street_77190-28105.jpg?id=390931799"
           imageAlt="Female skateboarder performing at skateboard park"
           mediaAnimation="slide-up"
           frameStyle="card"
@@ -194,7 +194,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBaseCard
-          logoText="Lets learn together a new experience "
+          logoText="Ready to book your new experience "
           columns={[
             {
               title: "Experience",              items: [
