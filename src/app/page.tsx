@@ -97,7 +97,7 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/back-view-man-doing-warm-up-exercises_23-2148239506.jpg?id=5131671"
+              title: "Warm-Up & Balance",              description: "We begin with a dynamic warm-up to activate balance, body control, and confidence before stepping on the board.",              imageSrc: "http://img.b2bpic.net/free-photo/young-couple-enjoys-playing-sports-morning-open-air-warm-up-before-exercise_146671-14939.jpg?id=9277056"
             },
             {
               id: 2,
@@ -121,7 +121,7 @@ export default function LandingPage() {
           tag="Competitive Pricing"
           plans={[
             {
-              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844231026-e8kfd47f.jpg",              features: [
+              id: "session",              title: "Single Session",              price: "$32",              period: "per guest",              imageSrc: "http://img.b2bpic.net/free-photo/woman-having-fun-with-skateboarding_329181-12953.jpg?id=12929860",              features: [
                 "1.3 hour coaching session",                "Professional equipment included",                "Beginner-friendly instruction",                "Tea & relaxing area and discussion   "
               ],
               button: {
@@ -129,7 +129,7 @@ export default function LandingPage() {
               },
             },
             {
-              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844264109-m2vkl8gz.jpg",              features: [
+              id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/premium-photo/two-skateboarders-performing-tricks-simultaneously_274719-11841.jpg?id=92853095",              features: [
                 "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"
               ],
               button: {
@@ -182,7 +182,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772844319531-4eo0pzhb.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772848005706-orzy7qlk.jpg"
           imageAlt="Atlas Mountains and Tamelslohte landscape in Marrakech"
           mediaAnimation="opacity"
           mediaPosition="right"
