@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
 import HeroLogoBillboard from "@/components/sections/hero/HeroLogoBillboard";
 import TextAbout from "@/components/sections/about/TextAbout";
+import SplitAbout from "@/components/sections/about/SplitAbout";
 import FeatureCardSeven from "@/components/sections/feature/FeatureCardSeven";
 import PricingCardNine from "@/components/sections/pricing/PricingCardNine";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
@@ -59,14 +60,31 @@ export default function LandingPage() {
       </div>
 
       <div id="about" data-section="about">
-        <TextAbout
+        <SplitAbout
           tag="Meet Your Coach"
           title="Houda Ait Lahcen - Skateboarding Instructor & Girls Supporter"
+          description="Learn from Morocco's best skater girl with years of experience coaching beginners and intermediate riders."
           buttons={[
             {
               text: "Reserve Your Spot",              href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
             },
           ]}
+          bulletPoints={[
+            {
+              title: "Expert Coach",              description: "Years of professional skateboarding experience with a passion for teaching"
+            },
+            {
+              title: "Safety First",              description: "All equipment provided, professional-grade protective gear included"
+            },
+            {
+              title: "Personal Attention",              description: "One-on-one instruction tailored to your skill level and learning pace"
+            },
+          ]}
+          imageSrc="http://img.b2bpic.net/free-photo/cute-girl-roller-skating_1303-8881.jpg?_wi=1"
+          imageAlt="Houda skateboarding instructor"
+          mediaAnimation="slide-up"
+          imagePosition="right"
+          textboxLayout="default"
           useInvertedBackground={true}
         />
       </div>
