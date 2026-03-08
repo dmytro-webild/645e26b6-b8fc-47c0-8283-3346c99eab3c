@@ -178,7 +178,7 @@ export default function LandingPage() {
         <ContactSplit
           tag="Get In Touch"
           title="Ready to Learn?"
-          description="Let's learn together and try a new experience where you learn not just skating but confidence. Join our skateboarding community in Marrakech. Book your experience today and become part of a movement supporting youth skateboarding across Morocco."
+          description="Let's learn together and try a new experience where you learn not just skating but confidence. Join our skateboarding community in Marrakech. Book your experience today and become part of a movement supporting children  skateboarding across Morocco."
           tagAnimation="slide-up"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
