@@ -101,11 +101,11 @@ export default function LandingPage() {
             },
             {
               id: 2,
-              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with professional-grade equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/guys-skate-pool_1321-1334.jpg?id=3202066"
+              title: "Safety & Gear Check",              description: "Learn proper stance, safe stopping techniques, and riding basics with safety equipment and guidance.",              imageSrc: "http://img.b2bpic.net/free-photo/guys-skate-pool_1321-1334.jpg?id=3202066"
             },
             {
               id: 3,
-              title: "Personal Coaching",              description: "One-on-one instruction with Morocco's best skater girl, including hands-on skating practice and personalized learning.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-skateboarders-feet-skating_171337-9160.jpg"
+              title: "Personal Coaching",              description: "Steaby step coaching with Morocco's best skater girl, including hands-on skating practice and personalized learning.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-skateboarders-feet-skating_171337-9160.jpg"
             },
           ]}
           animationType="blur-reveal"
