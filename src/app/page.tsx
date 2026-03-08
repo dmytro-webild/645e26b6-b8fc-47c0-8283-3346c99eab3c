@@ -52,7 +52,7 @@ export default function LandingPage() {
             { text: "Learn More" },
           ]}
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-photo/teenage-boy-with-skateboard-close-up_23-2148937898.jpg?id=13661848"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1773007372231-tufcrmsc.jpg"
           imageAlt="Female skateboarder performing at skateboard park"
           mediaAnimation="slide-up"
           frameStyle="card"
