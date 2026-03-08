@@ -130,7 +130,7 @@ export default function LandingPage() {
             },
             {
               id: "package",              title: "3-Session Package",              price: "$85",              period: "per guest",              imageSrc: "http://img.b2bpic.net/premium-photo/two-skateboarders-performing-tricks-simultaneously_274719-11841.jpg?id=92853095",              features: [
-                "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                "Complimentary refreshments"
+                "3 coaching sessions (best value)",                "Skill progression tracking",                "Professional equipment",                ""
               ],
               button: {
                 text: "Book Package",                href: "https://www.airbnb.com/experiences/6774219?viralityEntryPoint=2&s=76"
