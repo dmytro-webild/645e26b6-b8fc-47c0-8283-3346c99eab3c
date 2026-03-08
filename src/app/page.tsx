@@ -74,10 +74,10 @@ export default function LandingPage() {
               title: "Expert Coach",              description: "Years of professional skateboarding experience with a passion for teaching"
             },
             {
-              title: "Safety First",              description: "All equipment provided, professional-grade protective gear included"
+              title: "Safety First",              description: "All equipment provided, professional protective gear included"
             },
             {
-              title: "Personal Attention",              description: "One-on-one instruction tailored to your skill level and learning pace"
+              title: "Personal Attention",              description: "Step by step coaching  tailored to your skill level and learning pace"
             },
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AVSnAj9MzGOThMDqSI4t30YgeB/uploaded-1772847116738-v7uf3uyb.jpg"
