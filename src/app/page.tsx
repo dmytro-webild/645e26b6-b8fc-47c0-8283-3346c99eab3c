@@ -168,7 +168,7 @@ export default function LandingPage() {
               id: "5",              title: "Do you accommodate people with mobility issues?",              content: "We have a step-free bathroom available and a quiet retreat space. Contact us to discuss specific accessibility needs."
             },
             {
-              id: "6",              title: "Where exactly do we meet?",              content: "Sessions are held in Tamelslohte, Marrakech. You'll enjoy spectacular Atlas Mountain views and access to Fiere et Fort skateboard park."
+              id: "6",              title: "Where exactly do we meet?",              content: "Sessions are held in Tamelslohte, Marrakech. You'll enjoy spectacular Atlas Mountain views and access to Fiere et Fort  skatepark."
             },
           ]}
         />
