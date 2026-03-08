@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Book Your Skate & Surfskate Experience Today"
+          brandName="Book Your Skatebording & Surfskate Experience Today"
           navItems={[
             { name: "About", id: "about" },
             { name: "What You'll Learn", id: "features" },
