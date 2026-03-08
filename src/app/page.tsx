@@ -117,7 +117,7 @@ export default function LandingPage() {
       <div id="pricing" data-section="pricing">
         <PricingCardNine
           title="Skateboarding Experience"
-          description="All sessions include professional coaching, safety equipment, and community support. 8% of proceeds benefit CJF Morocco."
+          description="All sessions include professional coaching, safety equipment, and community support. 8% of proceeds benefit CJF Morocco a youth led organization ."
           tag="Competitive Pricing"
           plans={[
             {
